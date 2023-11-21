@@ -1,0 +1,17 @@
+.div_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 360px;
+    margin-top: 20px;
+}
+
+.primeiro_bloco h2{
+    font-size: 40px;
+    color: #4383F7;
+}
+
+.primeiro_bloco p{
+    font-size: 20px;
+    color: #5F6DF8;
+}
