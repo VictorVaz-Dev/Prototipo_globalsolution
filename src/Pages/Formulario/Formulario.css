@@ -1,11 +1,12 @@
-.cadastro{
+.formulario{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+    margin-bottom: 50px;
 }
 
-.tela_cadastro{
+.tela_formulario{
     border-radius: 25px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
     width: 600px;
@@ -14,18 +15,30 @@
     background-color: #0081FB;
 }
 
-.tela_cadastro h1{
+.tela_formulario h1{
     display: flex;
     justify-content: center;
+    color: #0018EE;
 }
 
-.botao_cadastrar{
+.tela_formulario h2{
+    color: #0018EE;
+    font-weight: bold;
+}
+
+.botao_formulario{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.botao_cadastrar a{
+.botao_enviar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.botao_enviar a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +53,7 @@
     width: 100px;
 }
 
-.botao_cadastrar a:hover{
+.botao_enviar a:hover{
     background-color: #0018EE;
     color: #0081FB;
 }

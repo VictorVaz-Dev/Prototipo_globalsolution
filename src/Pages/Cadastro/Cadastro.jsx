@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Campotexto from "../../Componentes/Campotexto/Campotexto";
 import './Cadastro.css'
 
 const Cadastro = () =>{
@@ -12,7 +13,7 @@ const Cadastro = () =>{
                 <Campotexto label="Nome de usuário:" placeholder="..." />
                 <Campotexto label="Senha:" placeholder="..." />
                 <Campotexto label="Confirmar Senha:" placeholder="..." />
-                <div className='botao_cadastro' >
+                <div className='botao_cadastrar' >
                     <NavLink
                         to="/Home"
                         className={({ isActive, isPending }) =>
