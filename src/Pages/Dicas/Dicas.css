@@ -1,0 +1,29 @@
+.bloco_diabetes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 350px;
+}
+
+.quarto_bloco h2{
+    color: #4383F7;
+    font-size: 40px;
+}
+
+.card_diabetes{
+    background-color: #4383F7;
+}
+
+.titulo_diabetes{
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 32px;
+}
+
+.conjunto_diabetes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 300px;
+}

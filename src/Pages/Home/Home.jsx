@@ -23,7 +23,7 @@ const Home = () => {
                         escolhas alimentares saudáveis, manter um cronograma de tratamento
                         consistente e se manterem ativos.
                     </p>
-                    <Button />
+                    <Button/>
                 </div>
                 <div>
                     <img src={foto_Carla} alt="foto de uma garota amarrando o cabelo" height="650px" />
@@ -55,8 +55,8 @@ const Home = () => {
                         entender melhor a doença e desenvolver novos tratamentos.
                     </p>
                     <p className='paragrafo' >
-                        O paciente com diabetes pode usar uma aplicação Web Glic para rastrear níveis de 
-                        açúcar no sangue. O aplicativo pode enviar dados sobre os níveis de açúcar no 
+                        O paciente com diabetes pode usar uma aplicação Web Glic para <b className='texto_azul' >rastrear níveis de 
+                        açúcar no sangue.</b> O aplicativo pode enviar dados sobre os níveis de açúcar no 
                         sangue do paciente para o médico, que pode usá-los para monitorar o progresso do paciente.
                     </p>
                 </div>

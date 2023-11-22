@@ -1,0 +1,46 @@
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.tela_cadastro{
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    width: 600px;
+    padding: 20px;
+    color: white;
+    background-color: #0081FB;
+}
+
+.tela_cadastro h1{
+    display: flex;
+    justify-content: center;
+}
+
+.botao_cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_cadastro a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    background-color: #0018EE;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px;
+}
+
+.botao_cadastro a:hover{
+    background-color: #0018EE;
+    color: #0081FB;
+}

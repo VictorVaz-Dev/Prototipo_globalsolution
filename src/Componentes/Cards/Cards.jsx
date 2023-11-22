@@ -14,4 +14,4 @@ const {src, alt, width, h2, p} = props
     )
 }
 
-export default Cards;
+export default Cards
