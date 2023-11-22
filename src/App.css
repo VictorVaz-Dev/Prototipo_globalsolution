@@ -3,4 +3,6 @@
 body{
     background-color: #F2F7FF;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }

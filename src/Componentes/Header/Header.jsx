@@ -11,7 +11,7 @@ const Cabecalho = () => {
                 <img src={logo} alt="Logo do site com nome 'D-FHIR'" height="100px" />
                 <div className='links' >
                     <NavLink
-                        to="/messages"
+                        to="/Home"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
                         }
@@ -19,7 +19,7 @@ const Cabecalho = () => {
                         Inicio
                     </NavLink>
                     <NavLink
-                        to="/messages"
+                        to="/Dicas"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
                         }

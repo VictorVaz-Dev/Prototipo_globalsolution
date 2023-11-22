@@ -1,58 +1,23 @@
-.div_2{
-    background-color: #3A8EF6;
-}
-
-.div_2 h2{
-    font-size: 32px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding: 50px;
-}
-
-.segundo_bloco{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0px 300px;
-    padding-bottom: 80px;
-}
-
-.segundo_bloco div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.card{
     background-color: white;
     width: 290px;
-    height: 450px;
+    height: 500px;
     border-radius: 10px;
-    padding: 0px;
+    margin-bottom: 50px;
 }
 
-.segundo_bloco img{
-    height: 185px;
-    width: 100%;
-    border-top-left-radius: 10px;
+.card img{
     border-top-right-radius: 10px;
-    padding: 0;
-    margin-top: -60px;
+    border-top-left-radius: 10px;
 }
 
-.segundo_bloco h2{
+.card h2{
+    padding: 0px 10px;
+    color: #4E74F8;
     font-size: 20px;
-    color: #5668F8;
-    display: flex;
-    padding: 0px 20px;
 }
 
-.segundo_bloco p{
+.card p{
+    padding: 10px 20px 10px 20px; 
     font-size: 16px;
-    color: black;
-    padding: 0px 20px;
-}
-
-.segunda_imagem{
-    margin-bottom: -60px;
 }
