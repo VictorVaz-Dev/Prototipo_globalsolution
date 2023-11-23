@@ -15,7 +15,7 @@ const Cuidados = () => {
                         informações do formulario.</p>
                 </div>
                 <div>
-                    <img src={cuidados1} height="400px" />
+                    <img src={cuidados1} height="400px"/>
                 </div>
             </div>
             <div className='agendar_consulta'>

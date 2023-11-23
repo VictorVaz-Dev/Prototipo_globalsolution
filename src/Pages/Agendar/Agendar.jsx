@@ -10,9 +10,9 @@ const Agendar = () => {
                 <div className='texto_agendamento' >
                     <h2>Obrigado pelas informações</h2>
                     <p>Agende sua consulta com um profissional
-                        de saúde<br /> qualificado para obter mais informações
-                        sobre como o <br /> Glic pode ajudá-lo a gerenciar seu
-                        diabetes.</p>
+                    de saúde<br /> qualificado para obter mais informações
+                    sobre como o <br /> Glic pode ajudá-lo a gerenciar seu
+                    diabetes.</p>
                 </div>
                 <div className='formulario_agendamento'>
                     <h2>Agende sua consulta:</h2>

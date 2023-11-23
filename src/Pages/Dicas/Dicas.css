@@ -30,4 +30,22 @@
 
 /*Seção de responsividade*/
 
-@media screen and
+@media screen and (max-width:1620px){
+
+    .bloco_diabetes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width:1780px){
+    .conjunto_diabetes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
+}

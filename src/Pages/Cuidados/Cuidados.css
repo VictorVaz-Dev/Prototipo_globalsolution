@@ -48,3 +48,26 @@
     background-color: #0018EE;
     color: #0081FB;
 }
+
+/*Seção de responsividade*/
+
+@media screen and (max-width:1500px){
+    .primeiro_bloco_cuidados{
+        padding: 20px 200px;
+    }
+    .agendar_consulta{
+        padding: 0px 200px;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .primeiro_bloco_cuidados{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 100px;
+    }
+    .agendar_consulta{
+        padding: 0px 70px;
+    }
+}

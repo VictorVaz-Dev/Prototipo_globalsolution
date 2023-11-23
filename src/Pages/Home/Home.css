@@ -85,6 +85,10 @@
         align-items: center;
         flex-direction: column;
     }
+
+    .section_card{
+        padding: 10px 20px;
+    }
 }
 
 @media screen and (max-width:1700px){
