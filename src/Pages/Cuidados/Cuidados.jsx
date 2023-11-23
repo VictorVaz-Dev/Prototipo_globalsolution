@@ -1,6 +1,7 @@
 import './Cuidados.css'
 import { NavLink } from 'react-router-dom'
 import cuidados1 from '../../assets/Img/img_cuidados/cuidados1.png'
+import grafico1 from '../../assets/Img/img_cuidados/grafico_cuidados.jpeg'
 
 const Cuidados = () => {
 
@@ -15,7 +16,7 @@ const Cuidados = () => {
                         informações do formulario.</p>
                 </div>
                 <div>
-                    <img src={cuidados1} height="400px"/>
+                    <img src={cuidados1} height="400px" alt="imagem animada com um doutor" />
                 </div>
             </div>
             <div className='agendar_consulta'>
@@ -32,7 +33,7 @@ const Cuidados = () => {
                         Agendar
                     </NavLink>
                     <NavLink
-                        to="/Dicas"
+                        to="/Monitoramento"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
                         }
@@ -42,6 +43,28 @@ const Cuidados = () => {
                 </div>
 
             </div>
+
+            <div className='area_saude'>
+                <div>
+                    <img src={grafico1} alt="graficos de saude"/>
+                </div>
+                <div className='paragrafo_saude' >
+                    <h2>Sua saúde é mais importante</h2>
+                    <p>Com base nas informações detalhadas no formulário, 
+                    desenvolvemos um sistema abrangente de monitoramento 
+                    personalizado, projetado especificamente para atender 
+                    às suas necessidades de saúde. Nosso inovador gráfico 
+                    consolidado oferece uma visão clara e acessível de 
+                    todas as suas informações de saúde, proporcionando 
+                    uma compreensão abrangente do seu bem-estar. Navegue 
+                    pelas diversas categorias e métricas de maneira 
+                    intuitiva, permitindo que você acompanhe seu progresso
+                    ao longo do tempo.
+                     
+                    </p>
+                </div>
+            </div>
+            
         </section>
     )
 }

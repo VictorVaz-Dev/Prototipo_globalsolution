@@ -1,0 +1,148 @@
+.area_dispositivos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 300px;
+}
+
+.paragrafo_dispositivos{
+    margin: 0px 50px 0px 0px;
+}
+
+.paragrafo_dispositivos h2{
+    color: #0081FB;
+    font-size: 40px;
+}
+
+.paragrafo_dispositivos p{
+    font-size: 20px;
+}
+
+.img_dispositivos{
+    margin: 0px 0px 0px 50px;
+}
+
+.area_duvidas{
+    margin-top: 50px;
+    background-color: #0081FB;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 180px;
+}
+
+.card_duvidas{
+    background-color: white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    margin: 40px 0px;
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.card_duvidas h2{
+    color: #0081FB;
+    padding-bottom: 20px;
+}
+
+.card_duvidas p{
+    font-size: 18px;
+}
+
+.card_duvidas ul li{
+    font-size: 18px;
+}
+
+.area_relatos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 400px;
+}
+
+.relatos_cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_relatos{
+    background-color: #D9D9D9;
+    width: 350px;
+    padding: 10px 50px;
+    margin: 0px 0px 50px 0px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+
+}
+
+.titulo_relatos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo_relatos img{
+    height: 50px;
+    border-radius: 10px;
+}
+
+.banner_relatos img{
+    height: 800px;
+    border-radius: 25px;
+}
+
+/*seção de responsividade*/
+
+@media screen and (max-width:1720px){
+    .area_dispositivos{
+        padding: 10px 200px;
+    }
+    .area_duvidas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .area_relatos{
+        padding: 30px 200px;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .area_dispositivos{
+        padding: 10px 100px;
+    }
+}
+
+@media screen and (max-width:1330px){
+    .area_relatos{
+        padding: 30px 100px;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .area_relatos{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .banner_relatos{
+        margin-bottom: 30px; 
+    }
+}
+
+@media screen and (max-width:1170px){
+    .area_dispositivos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:720px){
+    .img_dispositivos img{
+        height: 300px;
+        padding: 10px;
+    }
+}

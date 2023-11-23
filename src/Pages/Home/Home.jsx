@@ -5,7 +5,7 @@ import imagem2 from '../../assets/Img/img_cards/imagem02.jpg'
 import imagem3 from '../../assets/Img/img_cards/imagem03.jpg'
 import imagem4 from '../../assets/Img/img_cards/imagem04.jpg'
 import relacionamentos from '../../assets/Img/relacionamentos.png'
-import foto_Carla from '../../assets/Img/foto_Carla.png'
+import foto_Carla from '../../assets/Img/foto_Carla.jpeg'
 import Button from '../../Componentes/Button/Button.jsx'
 import Cards from '../../Componentes/Cards/Cards.jsx'
 

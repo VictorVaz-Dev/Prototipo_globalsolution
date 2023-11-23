@@ -6,6 +6,7 @@ import Formulario from "../Pages/Formulario/Formulario.jsx";
 import Cadastro from "../Pages/Cadastro/Cadastro.jsx";
 import Cuidados from "../Pages/Cuidados/Cuidados.jsx";
 import Agendar from "../Pages/Agendar/Agendar.jsx";
+import Monitoramento from "../Pages/Monitoramento/Monitoramento.jsx";
 
 const Rotas =() =>{
 
@@ -18,6 +19,7 @@ const Rotas =() =>{
             <Route path='/Cadastro' element={<Cadastro/>}/>
             <Route path='/Cuidados' element={<Cuidados/>}/>
             <Route path='/Agendar' element={<Agendar/>}/>
+            <Route path='/Monitoramento' element={<Monitoramento/>}/>
         </Routes>
     )
 }

@@ -49,7 +49,41 @@
     color: #0081FB;
 }
 
+.area_saude{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 30px 375px;
+}
+
+.paragrafo_saude{
+    color: #0081FB;
+    padding: 10px 0px;
+}
+
+.paragrafo_saude h2{
+    font-size: 36px;
+}
+
+.paragrafo_saude p{
+    font-size: 20px;
+}
+
 /*Seção de responsividade*/
+
+
+@media screen and (max-width:1700px){
+    .area_saude{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 100px;
+    }
+    .paragrafo_saude{
+        padding: 0px 200px;
+    }
+}
 
 @media screen and (max-width:1500px){
     .primeiro_bloco_cuidados{
@@ -58,6 +92,10 @@
     .agendar_consulta{
         padding: 0px 200px;
     }
+    .area_saude{
+        padding: 10px 200px;
+    }
+
 }
 
 @media screen and (max-width:1100px){
@@ -69,5 +107,22 @@
     }
     .agendar_consulta{
         padding: 0px 60px;
+    }
+    
+    .area_saude img{
+        width: 600px;
+    }
+    .paragrafo_saude{
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width:770px){
+
+    .area_saude img{
+        width: 500px;
+    }
+    .paragrafo_saude{
+        padding: 0px;
     }
 }
