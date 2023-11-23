@@ -21,12 +21,12 @@ const Formulario = () =>{
                     <Campotexto label="Sedentarismo:" placeholder="... " />
                     <div className='botao_enviar' >
                         <NavLink
-                            to="/Messages"
+                            to="/Cuidados"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
                         >
-                            Criar
+                            Enviar
                         </NavLink>
                     </div>
             </div>

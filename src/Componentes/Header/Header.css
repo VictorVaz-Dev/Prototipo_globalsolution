@@ -1,5 +1,4 @@
 header{
-    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -27,6 +26,16 @@ a.active{
     color: #0081FB;
 }
 
+/*Seção de responsividade*/
 
+@media screen and (max-width:1000px){
+    .cabecalho{
+        padding: 0;
+    }
+
+    .cabecalho a{
+        margin: 5px;
+    }
+}
 
 

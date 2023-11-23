@@ -29,6 +29,12 @@
     margin-bottom: 50px;
 }
 
+.dupla_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .conjunto_cards{
     display: flex;
     justify-content: space-between;
@@ -60,4 +66,32 @@
 
 .texto_azul{
     color: #4383F7;
+}
+
+/*seção para responsividade*/
+
+@media screen and (max-width:1670px){
+    .div_1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width:1780px){
+    .conjunto_cards{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1700px){
+    .div_3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+    }
 }

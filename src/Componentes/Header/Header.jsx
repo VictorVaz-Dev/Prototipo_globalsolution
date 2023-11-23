@@ -8,7 +8,14 @@ const Cabecalho = () => {
     return (
         <header>
             <div className='cabecalho'>
-                <img src={logo} alt="Logo do site com nome 'D-FHIR'" height="100px" />
+                <NavLink
+                    to="/Home"
+                    className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "active" : ""
+                    }
+                >
+                    <img src={logo} alt="Logo do site com nome 'D-FHIR'" height="100px" />
+                </NavLink>
                 <div className='links' >
                     <NavLink
                         to="/Home"
@@ -27,7 +34,7 @@ const Cabecalho = () => {
                         Dicas
                     </NavLink>
                 </div>
-                <Button/>
+                <Button />
             </div>
         </header>
     )
