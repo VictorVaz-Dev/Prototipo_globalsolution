@@ -30,7 +30,7 @@ const Agendar = () => {
                     </div>
                     <div className='link_agendamento' >
                         <NavLink
-                            to="/Home"
+                            to="/"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }

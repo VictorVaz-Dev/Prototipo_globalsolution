@@ -9,7 +9,7 @@ const Cabecalho = () => {
         <header>
             <div className='cabecalho'>
                 <NavLink
-                    to="/Home"
+                    to="/"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""
                     }
@@ -18,7 +18,7 @@ const Cabecalho = () => {
                 </NavLink>
                 <div className='links' >
                     <NavLink
-                        to="/Home"
+                        to="/"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
                         }

@@ -15,7 +15,7 @@ const Cadastro = () =>{
                 <Campotexto label="Confirmar Senha:" placeholder="..." />
                 <div className='botao_cadastrar' >
                     <NavLink
-                        to="/Home"
+                        to="/"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
                         }
