@@ -50,13 +50,13 @@ const Cuidados = () => {
                 </div>
                 <div className='paragrafo_saude' >
                     <h2>Sua saúde é mais importante</h2>
-                    <p>Com base nas informações detalhadas no formulário, 
+                    <p>&nbsp;Com base nas informações detalhadas no formulário, 
                     desenvolvemos um sistema abrangente de monitoramento 
                     personalizado, projetado especificamente para atender 
-                    às suas necessidades de saúde. Nosso inovador gráfico 
+                    às suas necessidades de saúde. <br/>&nbsp;Nosso inovador gráfico 
                     consolidado oferece uma visão clara e acessível de 
                     todas as suas informações de saúde, proporcionando 
-                    uma compreensão abrangente do seu bem-estar. Navegue 
+                    uma compreensão abrangente do seu bem-estar.<br/>&nbsp;Navegue 
                     pelas diversas categorias e métricas de maneira 
                     intuitiva, permitindo que você acompanhe seu progresso
                     ao longo do tempo.
